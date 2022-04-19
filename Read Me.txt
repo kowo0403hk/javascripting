@@ -1,0 +1,13 @@
+April 18, 2022
+
+These .js files are the completed assignments of "javascripting". 
+
+To run javascripting, connect to terminal --> cd lighthouse --> vagrant up --> vagrant ssh --> cd /vagrant/javascripting --> javascripting 
+
+***Error Message
+EEXIST: file already exists, mkdir '/home/vagrant/.config/workshopper'
+
+If this occurs, it means that the node version in vagrant is not active anymore, you need to install an active one. 
+
+Input 'nvm install 14.17.5' if your vagrant machine has not installed this version of node.js, or run 'nvm use 14.17.5' if it is already installed. Or I think you have install any version that is current active, check https://nodejs.org/en/about/releases/
+
